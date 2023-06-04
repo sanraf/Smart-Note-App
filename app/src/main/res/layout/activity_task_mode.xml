@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/taskDrawer"
+    android:background="#042940"
+    android:fitsSystemWindows="true"
+    tools:context=".otheractivities.TaskMode">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Task_LT"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolBar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:title=" ">
+
+            <ImageView
+                android:id="@+id/taskNav_icon"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="start"
+                android:src="@drawable/ic_baseline_menu_24"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="15dp"
+                android:id="@+id/taskTheme"
+                android:text="@string/add_list"
+                android:textColor="@color/Bluer"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+            android:layout_above="@+id/adView"
+            android:layout_below="@+id/toolBar"
+            android:id="@+id/taskrecycler"/>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_toStartOf="@+id/addtask"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="@color/tran"
+            android:layout_alignParentBottom="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111" />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            app:iconGravity="textStart"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:theme="@style/ButtonThem"
+            android:id="@+id/addtask"
+            app:iconTint="@color/Bluer"
+            app:icon="@drawable/black_add_24"
+            app:rippleColor="@color/matrix"
+            app:backgroundTint="@color/ocean"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            />
+
+
+    </RelativeLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/taskNavigate"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:isScrollContainer="true"
+        android:background="@drawable/notenavi_bck"
+        app:subheaderColor="@color/yellow"
+        app:itemIconTint="@color/dominant_color"
+        app:itemShapeFillColor="@color/lite_red"
+        app:itemTextColor="@color/matrix"
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/addtask_navigation" />
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

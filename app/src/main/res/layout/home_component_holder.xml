@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:gravity="center"
+        app:title=" "
+        app:titleTextColor="@color/myBlue_color">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/homescreen_title"
+            android:id="@+id/homescreen_text"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textColor="@color/teal_200" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/adView"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/tran"
+                android:layout_marginBottom="50dp"
+                android:layout_gravity="center">
+
+
+                <RelativeLayout
+                    android:layout_width="156dp"
+                    android:layout_height="196dp"
+                    app:cardCornerRadius="10dp"
+                    android:padding="2dp"
+                    android:background="@drawable/home_strokes"
+                    android:id="@+id/cardviewHome"
+                    android:layout_centerHorizontal="true">
+
+                    <com.smartdevapp.smartnote.LinedEditText
+
+                        android:id="@+id/linedEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:backgroundTint="@android:color/transparent"
+                        android:fontFamily="cursive"
+                        android:textFontWeight="800"
+                        android:backgroundTintMode="screen"
+                        android:background="@drawable/home_datebck"
+                        android:gravity="center|top"
+                        android:layout_gravity="center"
+                        android:textColor="@color/teal_200"
+                        android:textSize="18dp"
+                        android:textStyle="normal|bold"
+                        tools:targetApi="p"
+                        tools:ignore="SpUsage" />
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_centerHorizontal="true"
+                        android:padding="2dp"
+                        android:src="@drawable/pin"
+                        android:layout_gravity="center_horizontal"/>
+
+
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:id="@+id/homeButtonPanel"
+                android:background="@drawable/home_button">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/home_bckg"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:id="@+id/lt1"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:layout_margin="12dp"
+                        android:padding="10dp"
+                        android:id="@+id/pin"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/home_pin"/>
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/create_sticky_notes"
+                        android:id="@+id/notes"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="5dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textSize="18sp"
+                        android:textColor="@color/teal_200"/>
+
+
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="10dp"
+                        android:id="@+id/openNotes"
+                        app:rippleColor="@color/matrix"
+                        app:backgroundTint="@color/brown"
+                        android:src="@drawable/home_notes"/>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="5dp"
+                    android:layout_below="@id/lt1"
+                    android:id="@+id/lt2"
+                    android:background="@drawable/home_bckg_1">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:padding="10dp"
+                        android:id="@+id/list"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/list_home"
+                        android:layout_margin="10dp"/>
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:text="@string/make_item_price_list"
+                        android:id="@+id/Pricenotes"
+                        android:layout_margin="5dp"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textSize="18sp"
+                        android:textColor="@color/teal_200"
+                        />
+
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:id="@+id/openList"
+                        app:rippleColor="@color/matrix"
+                        app:backgroundTint="@color/purple_mode"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/home_list"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/lt2"
+                    android:id="@+id/lt3"
+                    android:background="@drawable/home_bckg_1">
+
+                    <ImageView
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:padding="10dp"
+                        android:id="@+id/view"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/clipnotes"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/create_to_do_task_list"
+                        android:id="@+id/taskNote"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textSize="18sp"
+                        android:textColor="@color/teal_200"/>
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:id="@+id/openTask"
+                        app:rippleColor="@color/matrix"
+                        app:backgroundTint="#042940"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/home_task"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="5dp"
+                    android:id="@+id/lt4"
+                    android:layout_below="@+id/lt3"
+                    android:background="@drawable/home_bckg_1">
+
+                    <ImageView
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:padding="10dp"
+                        android:id="@+id/settingIcon"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/gearsetting"
+                        android:layout_margin="10dp"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/open_navigation_drawer"
+                        android:id="@+id/nav_drawer"
+                        android:layout_margin="5dp"
+                        android:layout_gravity="center_vertical"
+                        android:fontFamily="sans-serif-condensed-medium"
+                        android:textSize="18sp"
+                        android:textColor="@color/teal_200"/>
+
+                    <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        app:rippleColor="@color/matrix"
+                        android:id="@+id/openDrawer"
+                        app:backgroundTint="@color/dominant_color"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/home_nav_drawer"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

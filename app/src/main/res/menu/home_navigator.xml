@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/notes_nav_activities">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="@string/home" />
+
+            <item
+                android:id="@+id/onNotesmainMode"
+                android:icon="@drawable/note_icon"
+                android:title="Notes" />
+
+            <item
+                android:id="@+id/to_do"
+                android:icon="@drawable/nav_shopping_cart_24"
+                android:title="@string/to_do_items" />
+
+            <item
+                android:id="@+id/onTaskmainMode"
+                android:icon="@drawable/task_mode_shopping_cart_24"
+                android:title="@string/to_do_itemTask" />
+
+        </menu>
+    </item>
+
+
+    <item android:title="@string/theme_and_color">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/onHomeSwitchTheme"
+                    app:actionLayout="@layout/switch_layout"
+                    android:icon="@drawable/ic_baseline_brightness_1_24"
+                    android:title="Theme Mode" />
+
+
+                <item
+                    android:id="@+id/onHomeDefaultTheme"
+                    android:icon="@drawable/ic_baseline_color_lens_24"
+                    android:title="Default Mode" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/info">
+        <menu>
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_baseline_help_24"
+                android:title="@string/help" />
+            <item
+                android:id="@+id/aboutApp"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="@string/about_app" />
+
+        </menu>
+
+    </item>
+
+    <item android:title="@string/communicate">
+        <menu>
+
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/nav_share_24"
+                android:title="@string/share" />
+
+            <item
+                android:id="@+id/rate"
+                android:icon="@drawable/ic_baseline_star_rate_24"
+                android:title="@string/rate_the_app" />
+
+        </menu>
+    </item>
+
+
+</menu>

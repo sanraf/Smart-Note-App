@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/readColor"
+    android:orientation="vertical"
+    android:id="@+id/drawer"
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true"
+    >
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/check_complete"
+        android:src="@drawable/green_check"
+        android:padding="150dp"/>
+    <include
+        layout="@layout/note_alarm"
+        android:visibility="gone"/>
+    <include
+        layout="@layout/note_lock"
+        android:visibility="gone"/>
+
+
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigate"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:isScrollContainer="true"
+        android:background="@drawable/notenavi_bck"
+        app:subheaderColor="@color/yellow"
+        app:itemIconTint="@color/dominant_color"
+        app:itemShapeFillColor="@color/lite_red"
+        app:itemTextColor="@color/matrix"
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/notes_navigator" />
+
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>

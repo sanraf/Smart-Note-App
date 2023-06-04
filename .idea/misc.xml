@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/add_notes_check_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/addlist_bckg.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/addlist_button.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/addlist_button_pressed.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/addlist_internalbckg.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/addlist_textbck.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/addnote_mainbck.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/addnote_strokes.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/addnotesdefault_bck.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/adds_bckg.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/backup_button_pressed.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/backup_note_state.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/black_add_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/black_tran.xml" value="0.18" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/blue_shopping_cart_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/boarder_layer.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/brightness_1_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/brightness_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/color_fill_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/copy_task.xml" value="0.118" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/cursor.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/custom_button_shopping.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/custom_button_state.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/del_note_state.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/deldialog_button.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/delete_button_pressed.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/desc_background.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/dottedlines.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/exit_bck_1.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/green.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/green_check_box_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_b_2.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_bck.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_bckg.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_bckg_1.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_bckg_date.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_bckg_day.xml" value="0.1" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_bckg_litetheme_1.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_bckg_littheme.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_bckg_month.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_bckg_year.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_button.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_button_dark.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_button_light.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_datebck.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_list.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_nav_drawer.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_notes.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_strokes.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/home_task.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_123_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_add_circle_outline_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_add_shopping_cart_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_alarm_on_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_apps_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_archive_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_attribution_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_backup_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_balance_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_brightness_1_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_check_box_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_check_box_outline_blank_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_cloud_download_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_color_lens_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_copy_all_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_delete_sweep_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_download_alt_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_expand_less_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_expand_more_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_help_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_info_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_invert_colors_24.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_menu_book_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.2115" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_note_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_priority_high_24.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_push_pin_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_save_alt_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_star_rate_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_texture_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_baseline_trip_origin_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/list_bckg.xml" value="0.15" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/list_bckg_pressed.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/list_state.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/mode_night_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/nav_share_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/nav_shopping_cart_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/new_splash.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/note_editing.xml" value="0.118" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/note_icon.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/note_state.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/notenavi_bck.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/orange.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/pink.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/purple.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/red.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/reset.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/save_note_state.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/shop_strokes.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/shopbck_button.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/shopcardbck_1.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/shopcardbck_2.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/shopcardbck_lpress.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/shoplist_menu.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/task_edit.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/task_edit_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/task_mode_shopping_cart_24.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/task_strokes.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/taskcardbck_1.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/taskdefault_bck.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/title_background.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/todo_bckg.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/watch_button.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/white_tran.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/drawable/yellow.xml" value="0.1685" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/Information_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/aboutapp_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_about_the_app.xml" value="0.15117624373312766" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_add_list.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_add_notes.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_add_task_mode.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_app_over_view.xml" value="0.17507815989280928" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_destinaton.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_help.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_launch_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_note_notification.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_read_mode.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_secure_notee.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_settings.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_shopping_holder.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_slip_mode.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/activity_task_mode.xml" value="0.2" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/app_bar_main.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/app_view.xml" value="0.15146831530139104" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/confirm_deletion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/confirm_deletion_shop.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/content_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/dialog_theme_default.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/exit_app.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/help_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/help_list.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/home_component_holder.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/information_dialog.xml" value="0.33" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/item_faq.xml" value="0.33" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/item_view_enhancement_option.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/lock_video.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/lottie_anim_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/navigation_header.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/note_alarm.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/note_list.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/note_lock.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/note_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/permission_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/set_reminder.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/settings_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/shop_list.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/shop_list_slip.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/switch_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/task_list.xml" value="0.22" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/testing.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/total_dialog.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/layout/watch_video.xml" value="0.1597145993413831" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/menu/addlist_navigation.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/menu/addnotes_navigation.xml" value="0.2" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/menu/addtask_navigation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/menu/color_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/menu/home_navigator.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/menu/notes_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/menu/notes_navigator.xml" value="0.25" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/menu/pop_color_itemlist.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/menu/popup_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/menu/search_bar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1645" />
+        <entry key="..\:/Users/acer/AndroidStudioProjects/SmartNote/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1645" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

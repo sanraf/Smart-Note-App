@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/addlist_bckg"
+    tools:context=".otheractivities.AddTaskMode">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/addlist_textbck"
+        android:gravity="center"
+        android:id="@+id/content"
+        android:textStyle="normal|bold"
+        android:textColor="@color/purple_mode"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:text="@string/add_to_do_task"/>
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/content"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/addlist_internalbckg">
+
+            <Button
+                android:id="@+id/floatingButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_below="@+id/textHolder"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/custom_button_state"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/textHolder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="1dp">
+
+
+                <EditText
+                    android:id="@+id/title_task"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/todo_bckg"
+                    android:fontFamily="sans-serif"
+                    android:hint="@string/title"
+                    android:inputType="textCapWords"
+                    android:padding="12dp"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/gray" />
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/textinput_counter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:counterEnabled="true"
+                    app:counterMaxLength="600"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    app:counterTextAppearance="@style/TextAppearance.AppCompat.Small"
+                    app:counterTextColor="@color/purple_mode"
+                    app:errorTextColor="@color/lite_red"
+                    app:hintTextColor="@color/yellow"
+
+
+                    >
+
+                    <EditText
+                        android:id="@+id/edit_task"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/todo_bckg"
+                        android:fontFamily="sans-serif"
+                        android:hint="@string/add_task_if_any"
+                        android:inputType="textCapWords|textMultiLine"
+                        android:padding="12dp"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray"
+                        android:importantForAutofill="no" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

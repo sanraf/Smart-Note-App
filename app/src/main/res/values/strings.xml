@@ -1,0 +1,242 @@
+<resources>
+    <string name="app_name">Smart Note</string>
+    <string name="app_permission">
+App permission is required for save,backup and retrieve notes, you can give <b>Smart Note App</b> permission by navigating to your mobile settingsand search for Permission Manager/App Permission,then search for <b>Smart Note</b> and  <b><i>Allow Management Of All File</i></b>
+     </string>
+    <string name="navigation_drawer_open">Open Navigation Panel</string>
+    <string name="navigation_drawer_close">Close Navigation Panel</string>
+    <string name="about_app">About App</string>
+    <string name="organisation">Smart App Dev</string>
+    <string name="price_converter">%.2f</string>
+    <string name="add_notes">Add Notes</string>
+    <string name="add_to_do_item">Add Shopping List</string>
+    <string name="delete_all_notes">Delete All Notes</string>
+    <string name="delete_all_list">Delete All List </string>
+    <string name="backup_all_notes">Backup All Notes</string>
+    <string name="restore_all_notes">Restore All Notes</string>
+    <string name="to_do_items">To-Do items <i>shopping</i></string>
+    <string name="to_do_itemTask">To-Do items <i>task</i></string>
+    <string name="home">Home</string>
+    <string name="notes_nav_activities">Activities</string>
+    <string name="warning">WARNING</string>
+    <string name="delete_message">Deletion without backup will result in permanent lose of data</string>
+    <string name="safe_to_delete">Your data is saved and it is safe to delete</string>
+    <string name="data_activities">Data Activities</string>
+    <string name="info">Information</string>
+    <string name="help">Help</string>
+    <string name="communicate">Communicate</string>
+    <string name="share">Share with friends</string>
+    <string name="rate_the_app">Rate The App</string>
+    <string name="settings">Settings</string>
+    <string name="add_to_do_task">Add Shopping List Or To-Do Task</string>
+    <string name="delete_all_task">Delete All Task</string>
+    <string name="color">Delete All Task</string>
+    <string name="createhome_sticky_notes">Create To-Do list and add a short notes to remind you of a purpose if required</string>
+    <string name="create_list_rice">Create a Shopping list containing number of items and the total cost</string>
+    <string name="create_notes">Write notes,save to the database and restored whenever is needed,set a reminder for a specific not and get notification </string>
+    <string name="theme_and_color">Theme and Color</string>
+    <string name="read_mode">Read Mode</string>
+    <string name="create_sticky_notes">Create Sticky Notes</string>
+    <string name="make_item_price_list">Make Item Price List</string>
+    <string name="create_to_do_task_list">Create To-Do Task List</string>
+    <string name="open_navigation_drawer">Open Navigation Drawer</string>
+
+    <string name="about_app_info">
+<![CDATA[<b><font color=#000080>Smart Note App</font></b>]]> is the tool designed to make creating notes easy
+and efficient with the alarm feature for notification whenever it is needed,also with pin and unpin method
+to highlight user\'s notes.\n
+It enable a user not only to write notes but also to create
+shopping list with price for each item and the total price for all listed items.\n
+<![CDATA[<b><font color=#000080>Smart Note App</font></b>]]> further provides To-Do-Task feature with checking method ,where a user can make
+list and assigns description below.\n\n
+Thank you for using <![CDATA[<b><font color=#000080>Smart Note App</font></b>]]> ,if you have any questions or suggestion pertaining
+<![CDATA[<b><font color=#000080>Smart Note App</font></b>]]> you are welcome to write the email
+to the address provided below.\n
+smartAppdevelopment1234@gmail.com
+
+    </string>
+
+
+    <string-array name="theme">
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+    <string name="question" translatable="false">Question</string>
+    <string name="answer" translatable="false">Answer</string>
+
+    <string name="attribution"><b>Special Thanks to icons8 and Freepik website for providing the following icons</b>\n\n
+
+        <a href="https://icons8.com/icon/34998/choice" target="_blank">Choice</a> icon by <a href="https://icons8.com" target="_blank">Icons8</a>\n
+        <a href="https://icons8.com/icon/FFdft2aGmPoF/pass" target="_blank">Pass</a> icon by <a href="https://icons8.com" target="_blank">Icons8</a>\n
+        <a href="https://icons8.com/icon/wentDIVCh9bX/numbered-list" target="_blank">Numbered List</a> icon by <a href="https://icons8.com" target="_blank">Icons8</a>\n
+        <a href="https://icons8.com/icon/mteOOoKHmJ3F/list-view" target="_blank">List View</a> icon by <a href="https://icons8.com" target="_blank">Icons8</a>\n
+        <a href="https://icons8.com/icon/xh2oGjBHjjEn/pin-in-circle" target="_blank">Pin in circle</a> icon by <a href="https://icons8.com" target="_blank">Icons8</a>\n
+        <a href="https://icons8.com/icon/pWHHMBSWmt6u/setting" target="_blank">Setting</a> icon by <a href="https://icons8.com" target="_blank">Icons8</a>\n
+        <a href="https://icons8.com/icon/11878/barcode" target="_blank">Barcode</a> icon by <a href="https://icons8.com" target="_blank">Icons8</a>\n
+        <a href="https://icons8.com/icon/pwvF6DpruE8q/receipt-dollar" target="_blank">Receipt Dollar</a> icon by <a href="https://icons8.com" target="_blank">Icons8</a>\n
+        <a href="https://icons8.com/icon/GN5wGxsJ9csB/priority" target="_blank">Priority</a> icon by <a href="https://icons8.com" target="_blank">Icons8</a>\n
+        <a href="https://www.freepik.com/free-vector/security-safety-icon_4873540.htm#query=privacy%20icon&amp;position=32&amp;from_view=keyword&amp;track=robertav1_2_sidr">Image by djvstock</a> on Freepik\n
+        <a href="https://www.freepik.com/free-vector/female-hands-holding-pen-drawing-flowers-notebook-girl-sitting-table-with-cup-tea-mobile-phone-it-taking-notes-diary-flat-
+        vector-illustration-hobby-art-concept_26921736.htm#query=take%20notes&amp;position=31&amp;from_view=search&amp;track=ais">Image by pch.vector</a> on Freepik\n
+        <a href="https://www.freepik.com/free-vector/student-writing-notebook_16398180.htm#query=take%20notes&amp;position=16&amp;from_view=search&amp;track=ais">Image by rawpixel.com</a> on Freepik\n
+        <a href="https://www.freepik.com/free-vector/hands-character-writing-letter-desk-with-papers-pencil-envelopes-coffee-cup_11235480.htm#query=takenotes&amp;position=3&amp;from_view=search&amp;track=ais?log-in=google">Image by pch.vector</a> on Freepik\n
+        <a href="https://www.freepik.com/free-vecto/egyptian-night-desert-pyramids-sphinx-anubis_7588872.htm#page=2&amp;query=night&amp;position=26&amp;from_view=search&amp;track=sph">Image by upklyak</a> on Freepik\n
+        <a href="https://www.freepik.com/free-vector/landscape-dull-color-mountains-vector-minimal-poster-style_30087527.htm#page=4&amp;query=ocean%20sunrise%20silhouette%20vector&amp;position=24&amp;from_view=search&amp;track=ais">Image by rawpixel.com</a> on Freepik\n
+        <a href="https://www.freepik.com/free-vector/autumn-nature-landscape-template_9580989.htm#query=flockings&amp;position=10&amp;from_view=keyword&amp;track=sph">Image by macrovector</a> on Freepik\n
+        <a href="https://www.freepik.com/free-vector/outer-space-background_4239928.htm">Image by rawpixel.com</a> on Freepik\n
+        <a href="https://www.freepik.es/foto-gratis/impresionante-paisaje-cielo-estrellado-acantilados-rocosos-que-reflejan-lago-noche_11890128.htm">Imagen de wirestock</a> en Freepik\n
+        <a href="https://www.freepik.com/free-vector/blue-watercolor-starry-sky-background_9216849.htm">Image by Vectonauta</a> on Freepik\n
+        <a href="https://www.freepik.com/free-vector/santa-clause-reindeers-flying-across-full-moon-night-sky-background_20847245.htm#query=santa-clause-reindeers-flying-across-full-moon-night-sky-background&amp;position=0&amp;from_view=search&amp;track=sph">Image by callmetak</a> on Freepik\n
+        Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-kwanzaa-pattern-design_20285024.htm#query=grocery%20night%20pattern&amp;position=42&amp;from_view=search&amp;track=ais">Freepik</a>\n
+        Image by <a href="https://www.freepik.com/free-vector/colorful-fruits-pattern_792935.htm#query=grocery%20light%20pattern&amp;position=41&amp;from_view=search&amp;track=ais">Freepik</a>
+
+
+
+    </string>
+    <string name="app_overview">app overview</string>
+    <string name="credit">Credit</string>
+    <string name="click_overview">Click</string>
+    <string name="edit_mode">Edit Mode</string>
+    <string name="set_a_reminder">Set A Reminder</string>
+    <string name="pin_unpin">Pin/Unpin</string>
+    <string name="cancel_reminder">Cancel Reminder</string>
+    <string name="flash_notes">Flash Notes</string>
+    <string name="smart_note_app_faq">Smart Note App FAQ</string>
+    <string name="no_task_added"><![CDATA[<font color=#ff0000><b>No Task Description</b></font> <i><font color = #F2BB66> click the pencil icon to add</font></i>]]></string>
+    <string name="task_description">Task Description</string>
+    <string name="task_price_list">Task Price List</string>
+    <string name="price">Price</string>
+    <string name="item">Item</string>
+    <string name="quantity">Quantity</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="save">Save</string>
+    <string name="title">title</string>
+    <string name="homescreen_title">Smart Note Homescreen</string>
+    <string name="set_alarm">set Alarm</string>
+    <string name="select_time">select Time</string>
+    <string name="notes_color">Notes Color And Font Style</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="pink">Pink</string>
+    <string name="purple">Purple</string>
+    <string name="yellow">Yellow</string>
+    <string name="orange">Orange</string>
+    <string name="reset">reset</string>
+    <string name="note_description">Note Description</string>
+    <string name="notes_title">Notes Title</string>
+    <string name="add_list">Add List</string>
+    <string name="add_task_if_any">add task if any</string>
+    <string name="price_per_item">Price per item</string>
+    <string name="note">NOTE!</string>
+    <string name="close">Close</string>
+    <string name="receipt_mode_title">Shopping List</string>
+    <string name="safe_deletion_text">Safe To Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="backup">Backup</string>
+    <string name="delete_message_shop">No Recovery After Deletion of This Data</string>
+    <string name="ok">ok</string>
+    <string name="created_time">Created time :</string>
+    <string name="words">words :</string>
+    <string name="characters">Characters :</string>
+    <string name="character_and_space">Characters and spaces :</string>
+    <string name="protect_notes">Protect Notes</string>
+
+
+    <string-array name="help_question_answers">
+<item>
+<![CDATA[How to create a notes ?#####From <b>\"Homescreen\"</b> click the notes icon on <b>\"Create Sticky Notes"\</b>
+you will be then taken to <b>\"Take Notes "</b>screen where you will be provided with <b>plus\ "+\"</b> button to
+direct you to edit-text,
+\nfill both the title and the notes description,\n
+if you chose not to fill
+the title it will be automatically saved as <b>\"Untitled\"</b>,\n
+then click blue,white or black button with check icon to save the notes]]>
+</item>
+
+        <item>
+<![CDATA[How to delete notes ?#####Swipe selected notes to the left to delete,\n
+or you can use navigation drawer and select <b>\"Delete All Notes\"</b>\n
+Be aware that this option will delete every notes you have created permanently without recovery if there
+was no backup,\n
+however you can still undo the swipe delete as long as the snackbar still displayed at the bottom screen]]>
+</item>
+
+        <item>
+Recover deleted notes ?#####notes can only be recovered only if you have backup your notes before deletion.
+</item>
+
+        <item>
+How to backup the notes ?#####Click the icon on top-left corner of the screen to open the navigation drawer,\n
+then click <![CDATA[\<b>"Backup All Notes\"</b>]]>
+</item>
+
+        <item>
+<![CDATA[Where is backup file located ?#####Use file manager to navigate to device files,\n
+then search for <b>\"Smartnote\" </b>folder,inside there will be two folders and <b>\"My Notes\"</b>
+which contain text documents of any saved or downloaded notes and <b>\"notesBackup\"</b> where the backup file
+is stored with the file name <b>\"Notes_Backup.csv\"</b>]]>
+</item>
+
+        <item>
+<![CDATA[How to transfer notes to different device#####Use the copy of backup file located inside <b>\"Smartnotes\"</b> folder
+check the previous info-view i.e<b>\"<u>Where is backup file located\</u>"</b> for more details on how to get to backup file.\n
+Then send the file to new device and copy it to <b>\"notesBackup\"</b>,now open <b>Smart Note App</b> on <b>\"Take Notes\"</b>
+open navigation drawer and click \"Restore All Notes\"]]>
+</item>
+
+        <item>
+<![CDATA[What to do if I do not have \"Smartnotes\" folder, How can I create it ?#####Open your device file manager and create <b>\"Smartnotes\"</b>\n
+and inside create two sub-folders,<b>\"notesBackup\"</b> and <b>\"My Notes\"</b>\n
+<b><font color=#ff0000>CAUTION</font></b> <i>FOLDERS AND FILES SHOULD BE NAMED PRECISELY AS GIVEN BELOW</i>\n
+<b>1 Smartnotes,</b>
+<b>2 notesBackup,</b>
+<b>3 My Notes</b> this can be only be create if it was not dynamically created by <b>Smart Note App</b>]]>
+</item>
+
+        <item>How to searching a notes ?#####Click the search icon on the top-right corner of the screen\n
+then search by either notes title or notes description.</item>
+
+        <item><![CDATA[How to pin and unpin the notes?#####Press a three-dots icon on the top-left of the notes you want to pin or unpin, a popup menu will appear,
+    Click \<b>"Pin/Unpin\"</b> to pin or unpin the notes]]>.</item>
+
+        <item>
+<![CDATA[How to set a notification reminder#####Press a three-dots icon on the top-left of a notes you want to set a reminder to, a popup menu will appear,
+    Click <b>\"Set A Reminder\"</b>,you will be directed to a screen with clock dialog to set time,
+click \"<b>SET ALARM</b>]]>\" button when you done,the alarm icon will show to the notes you had set reminder to</item>
+
+        <item>
+<![CDATA[How to cancel notification reminder#####Press a three-dots icon on the top-left of a notes with alarm icon, a popup menu will appear,
+Click <b>\"Cancel Reminder\"</b> to cancel the reminder]]>
+</item>
+
+        <item>
+<![CDATA[About the notification #####You will receive a notification on your device that contains a title and description or content of the notes\n
+<b><font color=#3700B3>NOTE!</font> <i>it is highly recommended to click the notification instead of swiping it away,this procedure removes the alarm icon on the notes</i></b>]]>
+</item>
+
+        <item>
+<![CDATA[Changing App Theme?#####You can change the theme for entire App by using a switch button on navigation drawer,\n
+change from light mode to night mode,or Click <b>\"Default\"</b> to return the default mode.]]></item>
+
+        <item>
+<![CDATA[How to changing the notes color ?#####Press a three-dots icon on the top-right of the notes you want to set a color to, then different colors will appear ro choose from.]]></item>
+
+        <item>
+<![CDATA[How to create price list ?#####From <b>\"Homescreen\"</b> click the 3 horizontal line icon on <b>\"Make Item List\"</b>\n
+you will be then taken to <b>\"Activity \"</b>screen where you will be provided with <b>plus\" +\" </b>button to
+direct you to edit-text,
+\nfill all three fields,\n
+then save button to save the item]]>
+</item>
+
+        <item>
+<![CDATA[Can i recover my deleted price list ?#####Both <b>\"Item Price List\"</b> and <b>\"To-Do Task List\"</b> cannot be recovered after deletion.]]>
+</item>
+
+    </string-array>
+
+
+</resources>

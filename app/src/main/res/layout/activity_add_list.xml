@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/addlist_bckg"
+    tools:context=".AddList">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/addlist_textbck"
+            android:gravity="center"
+            android:id="@+id/content"
+            android:textStyle="normal|bold"
+            android:textColor="@color/purple_mode"
+            android:textSize="16sp"
+            android:padding="12dp"
+            android:text="@string/add_to_do_item"/>
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/content"
+            android:layout_centerHorizontal="true">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/addlist_internalbckg">
+
+                <Button
+                    android:id="@+id/floatingButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/save"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/textHolder"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@drawable/custom_button_state"
+                    />
+
+
+                <LinearLayout
+                    android:id="@+id/textHolder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="1dp">
+
+
+                    <EditText
+                        android:id="@+id/edit_item"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/todo_bckg"
+                        android:drawableEnd="@drawable/ic_baseline_add_shopping_cart_24"
+                        android:fontFamily="sans-serif"
+                        android:hint="@string/item"
+                        android:inputType="textCapWords"
+                        android:padding="12dp"
+                        android:singleLine="true"
+                        android:textSize="16sp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray"
+                        android:importantForAutofill="no" />
+
+                    <EditText
+                        android:id="@+id/priceOfItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/todo_bckg"
+                        android:drawableEnd="@drawable/ic_baseline_attach_money_24"
+                        android:fontFamily="sans-serif"
+                        android:gravity="top"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="5dp"
+                        android:hint="@string/price_per_item"
+                        android:inputType="numberDecimal"
+                        android:padding="12dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/gray"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:importantForAutofill="no" />
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:id="@+id/textinput_counter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        app:counterEnabled="true"
+                        app:counterMaxLength="9"
+                        android:layout_marginEnd="5dp"
+                        android:layout_marginStart="5dp"
+                        app:counterTextAppearance="@style/TextAppearance.AppCompat.Small"
+                        app:counterTextColor="@color/purple_mode"
+                        app:errorTextColor="@color/red"
+                        app:hintTextColor="@color/yellow"
+
+
+                        >
+
+                        <EditText
+                            android:id="@+id/numberOfItems"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/todo_bckg"
+                            android:drawableEnd="@drawable/ic_baseline_123_24"
+                            android:ems="10"
+                            android:fontFamily="sans-serif"
+                            android:gravity="top"
+                            android:hint="@string/quantity"
+                            android:inputType="number"
+                            android:padding="12dp"
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/white"
+                            android:textSize="16sp"
+                            android:textStyle="normal"
+                            android:importantForAutofill="no" />
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

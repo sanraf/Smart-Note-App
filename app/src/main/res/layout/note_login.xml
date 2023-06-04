@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LT"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@color/tran"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:layout_width="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/readColor">
+
+
+            <LinearLayout
+                android:id="@+id/textHolder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="1dp">
+
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:fontFamily="sans-serif"
+                    android:padding="12dp"
+                    android:digits="0123456789"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:importantForAutofill="no"
+                    android:id="@+id/myPassword"
+                    android:hint="Password"
+                    android:longClickable="false"
+                    android:drawableEnd="@drawable/ic_baseline_visibility_off_24"
+                    android:backgroundTint="@color/dominant_color"
+                    android:inputType="numberPassword"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif"
+                    android:gravity="top"
+                    android:visibility="gone"
+                    android:backgroundTint="@color/dominant_color"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginStart="5dp"
+                    android:inputType="textEmailAddress"
+                    android:padding="12dp"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="normal"
+                    android:longClickable="false"
+                    android:importantForAutofill="no"
+                    android:id="@+id/myEmail"
+                    android:hint="Email"
+                    android:drawableEnd="@drawable/ic_baseline_email_24" />
+
+                <Button android:id="@+id/login"
+
+                        android:layout_height="wrap_content"
+                        android:layout_width="wrap_content"
+                        android:textStyle="normal|italic"
+                        android:background="@color/myBlue_color"
+                        android:textColor="@color/white"
+                        android:text="open notes"
+                        android:padding="6dp"
+                        android:textSize="12sp"
+                        android:layout_marginTop="10dp" />
+
+                   <RelativeLayout android:id="@+id/linearLayout1"
+                        android:orientation="horizontal"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:padding="5dp"
+                        android:layout_marginTop="10dp">
+
+                        <TextView android:id="@+id/forgotpass"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textStyle="italic|bold"
+                            android:textSize="16sp"
+                            android:layout_alignParentStart="true"
+                            android:textColor="@android:color/white"
+                            android:text="Forgot Password"
+                            android:padding="5dp"
+                            android:layout_marginStart="15dp"/>
+
+                        <TextView android:id="@+id/nremoveepass"
+                            android:layout_height="wrap_content"
+                            android:layout_width="wrap_content"
+                            android:textStyle="italic|bold"
+                            android:textSize="16sp"
+                            android:layout_alignParentEnd="true"
+                            android:textColor="@android:color/white"
+                            android:text="Remove Password"
+                            android:padding="5dp"
+                            android:layout_marginStart="15dp"
+                            android:layout_marginEnd="15dp"/>
+
+                    </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

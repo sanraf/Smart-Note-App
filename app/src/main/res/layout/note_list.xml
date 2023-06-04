@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/note_holder"
+    android:clickable="true"
+    app:rippleColor="@color/dark_mode"
+    app:strokeColor="@color/dark_mode"
+    app:strokeWidth="2dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    android:minHeight="55dp"
+    android:layout_marginStart="2dp"
+    android:layout_marginEnd="2dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="0dp"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/longPres"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:background="@color/myBlue_color">
+
+            <ImageButton
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:background="@color/tran"
+                android:layout_marginStart="5dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/threeDots"
+                android:src="@drawable/ic_baseline_more_vert_24"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/title"
+                android:text="@string/title"
+                android:textStyle="normal|bold"
+                android:layout_centerInParent="true"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:layout_marginStart="14dp"
+                android:layout_marginEnd="18dp"
+                android:textSize="16sp"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                android:layout_alignParentEnd="true"
+                android:background="@color/tran"
+                android:layout_marginStart="5dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/paint"
+                android:src="@drawable/ic_baseline_invert_colors_24"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/clickable_ly"
+            >
+
+            <ImageView
+                android:layout_width="110dp"
+                android:layout_height="130dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/securenotess"
+                android:id="@+id/lockNote"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_notes"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:text="Notes"
+                android:linksClickable="false"
+                android:autoLink="email|web|map"
+                android:textColorLink="@color/Bluer"
+                android:textFontWeight="800"
+                android:textColor="@color/black"
+                android:maxLines="10"
+                android:minHeight="60dp"
+                android:padding="5dp"/>
+
+            <ImageView
+                android:layout_width="26dp"
+                android:layout_height="26dp"
+                android:id="@+id/pin"
+                android:layout_margin="5dp"
+                android:layout_alignParentEnd="true"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:background="@color/myBlue_color">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/text_date"
+                android:textSize="14sp"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/alertTitle"
+                android:textStyle="normal|bold|italic"
+                android:text="Notes Date"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:ellipsize="marquee"
+                android:scrollHorizontally="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:padding="5dp"/>
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/alertTitle"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="5dp"/>
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

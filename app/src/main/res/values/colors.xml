@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="teal_tran">#73018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="whiteTran">#80FFFFFF</color>
+
+    <color name="matrix">#39ff14</color>
+    <color name="green">#507D2A</color>
+    <color name="dominant_color">#F2BB66</color>
+    <color name="myBlue_color">#80357EC7</color>
+    <color name="Bluer">#0583d2</color>
+    <color name="nite">#1f1b24</color>
+    <color name="ocean">#0b2c41</color>
+    <color name="navy">#00000e</color>
+    <color name="red">#e3242b</color>
+    <color name="lite_red">#ff0000</color>
+    <color name="tran">#00C0C0C0</color>
+    <color name="listselector">#800000ff</color>
+    <color name="dominant_transp_color">#73F2BB66</color>
+    <color name="layout">#0000ff</color>
+    <color name="readColor">#023047</color>
+
+    <color name="night_mode">#1f1b24</color>
+    <color name="night_sky">#195f85</color>
+    <color name="light_mode">#dee4e7</color>
+
+    <color name="Default">#0b0b45</color>
+    <color name="dark_mode">#152238</color>
+    <color name="maroon_mode">#ff00ff</color>
+    <color name="purple_mode">#000080</color>
+    <color name="purple_mode_stroke">#0a0033</color>
+    <color name="liteblue_mode">#80151b8d</color>
+    <color name="khaki">#ff9900</color>
+    <color name="yellow">#f8dc08</color>
+    <color name="liteyellow">#fad744</color>
+    <color name="yellowtran">#80fad744</color>
+    <color name="liteyellow_stroke">#af962f</color>
+    <color name="brown">#a34E24</color>
+    <color name="adult">#b3FFFFFF</color>
+    <color name="night">#111b21</color>
+    <color name="adult_black">#b3000000</color>
+    <color name="litered">#f66092</color>
+    <color name="litered_stroke">#ac4366</color>
+    <color name="litepink">#faa9c4</color>
+    <color name="litepink_stroke">#af7689</color>
+    <color name="R">#FF6347</color>
+    <color name="R_stroke">#dc442d</color>
+    <color name="litegreen">#92f660</color>
+    <color name="litegreen_stroke">#5a973b</color>
+    <color name="cream">#e276fb</color>
+    <color name="cream_stroke">#9e52af</color>
+
+    <color name="cardview">#23395d</color>
+
+
+    <color name="A">#23272A</color>
+    <color name="note_navigation_background">#733700B3</color>
+    <color name="deletion_dialog_background">#80F8DC08</color>
+    <color name="C">#dfacea</color>
+    <color name="D">#ffefd8</color>
+    <color name="E">#fec994</color>
+    <color name="F">#f6f8e8</color>
+    <color name="G">#e88985</color>
+    <color name="H">#ffd7e9 </color>
+    <color name="I">#ff00ff</color>
+
+    <color name="K">#c9c0bb</color>
+    <color name="L">#87ceeb</color>
+    <color name="M">#ab784e</color>
+    <color name="N">#b38481</color>
+    <color name="P">#1f1b24</color>
+    <color name="S">#0583d2</color>
+    <color name="T">#4fd6f7</color>
+
+    <color name="colorPrimary">#2f80ed</color>
+    <color name="colorPrimaryDark">#0055ba</color>
+    <color name="colorAccent">#73afff</color>
+
+    <color name="dark_purple">#690339</color>
+
+    <color name="red_mode_stroke">#2c0000</color>
+    <color name="colorGray">#607D8B</color>
+    <color name="gray">#808080</color>
+    <color name="grayl">#40607D8B</color>
+    <color name="light_gray">#d3d3d3</color>
+    <color name="litegray">#D2D2D2</color>
+    <color name="taskGray">#C5C1C1</color>
+
+    <color name="windowBackground_light">#F4F4F6</color>
+    <color name="windowBackground_dark">#33343B</color>
+    <color name="dim_mode">#111B21</color>
+    <color name="dim_modeTran">#80111B21</color>
+    <color name="dim">#e6111B21</color>
+    <color name="dim_mode_stroke">#0b1217</color>
+    <color name="dominant_stroke">#80efdcbe</color>
+    <color name="nn">#8e24aa</color>
+    <color name="mm">#31394a</color>
+
+    <color name="myBl">#9bedff</color>
+    <color name="myB">#164b70</color>
+    <color name="my">#134162</color>
+    <color name="m">#0d2e46</color>
+    <color name="arrowsColor">#0b2538</color>
+    <color name="halo_red">#FF4444</color>
+    <color name="contrast_gray">#727272</color>
+
+    <color name="lite_mode_stroke">#cfd1d2</color>
+
+
+</resources>

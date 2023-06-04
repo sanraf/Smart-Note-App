@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginEnd="5dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="0dp"
+    android:layout_marginStart="5dp"
+    android:id="@+id/taskHolder"
+    app:strokeWidth="1.6dp"
+    android:backgroundTintMode="screen"
+    android:backgroundTint="@android:color/transparent"
+    android:background="@drawable/task_strokes"
+    android:clickable="true"
+    android:layout_height="wrap_content"
+    android:focusable="true">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/colorHolder"
+        android:background="@drawable/taskcardbck_1">
+
+
+        <RelativeLayout
+            android:id="@+id/titleLayout"
+            android:layout_width="match_parent"
+            android:layout_height="105dp">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="30dp"
+                android:background="@android:color/transparent"
+                android:padding="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/title"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                tools:ignore="RelativeOverlap" />
+
+            <ImageView
+                android:id="@+id/task_checkbox"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="5dp"
+                android:src="@drawable/mylogo" />
+
+            <ImageView
+                android:id="@+id/task_check"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="3dp"
+                android:layout_alignParentEnd="true"
+                android:visibility="invisible"
+                android:layout_marginEnd="10dp" />
+
+            <ImageView
+                android:id="@+id/task_expand"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#80C5C1C1"
+            android:padding="10dp"
+            android:visibility="visible"
+            android:id="@+id/expanding_layout"
+            android:layout_below="@+id/titleLayout"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/task_description"
+                android:id="@+id/task_titletask"
+                android:textColor="@color/night"
+                android:textSize="16sp"
+                android:layout_alignParentStart="true"
+                android:textStyle="normal|bold"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/time"
+                android:textColor="@color/matrix"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="5dp"
+                android:textStyle="normal|bold"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/time"
+                android:text="@string/no_task_added"
+                android:textColor="@color/Default"
+                android:id="@+id/task"
+                android:autoLink="web|email|phone"
+                android:textColorLink="@color/teal_200"
+                android:linksClickable="true"
+                android:layout_marginTop="10dp"
+                android:textStyle="normal"
+                android:textSize="15sp"
+                />
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="15dp"
+                android:id="@+id/editTask"
+                android:src="@drawable/task_edit"
+                android:layout_below="@+id/task"
+                android:layout_alignParentEnd="true"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="15dp"
+                android:id="@+id/copyTask"
+                android:src="@drawable/copy_task"
+                android:layout_below="@+id/task"
+                android:layout_alignParentStart="true"/>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

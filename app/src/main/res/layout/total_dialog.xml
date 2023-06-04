@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/tran"
+    android:id="@+id/totalHolder"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/TitleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Summary"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textFontWeight="1000"
+        android:layout_margin="10dp"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/red"
+        android:textSize="18sp"
+        tools:targetApi="p" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TitleView"
+            android:text="Total Items"
+            android:textSize="18sp"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:padding="15dp"
+            android:textColor="@color/yellow"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TitleView"
+        android:id="@+id/totalItems"
+        android:padding="15dp"
+        android:layout_alignParentEnd="true"
+        android:textSize="18sp"
+        android:layout_marginEnd="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/matrix"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/totalItems"
+        android:text="@string/total_cost"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginStart="20dp"
+        android:padding="15dp"
+        android:textColor="@color/yellow"/>
+
+
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:padding="15dp"
+            android:layout_below="@id/totalItems"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:textStyle="italic|bold"
+            android:textColor="@color/matrix"
+            android:textSize="18sp"
+            tools:targetApi="p" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/ok"
+        android:textAllCaps="true"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/total"
+        android:textColor="@color/tran"
+        android:padding="10dp"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        android:id="@+id/close"
+        android:focusable="true" />
+
+
+</RelativeLayout>

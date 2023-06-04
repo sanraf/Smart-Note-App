@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="@string/notes_nav_activities">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="@string/home" />
+
+            <item
+                android:id="@+id/to_do"
+                android:icon="@drawable/nav_shopping_cart_24"
+                android:title="@string/to_do_items" />
+
+            <item
+                android:id="@+id/onTaskmainMode"
+                android:icon="@drawable/task_mode_shopping_cart_24"
+                android:title="@string/to_do_itemTask" />
+
+        </menu>
+    </item>
+
+    <item android:title="@string/data_activities">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/DeleteAll"
+                    android:icon="@drawable/ic_baseline_delete_24"
+                    android:title="@string/delete_all_notes"
+                    app:showAsAction="ifRoom"/>
+
+                <item
+                    android:id="@+id/Backup"
+                    android:icon="@drawable/ic_baseline_cloud_download_24"
+                    android:title="@string/backup_all_notes"
+                    app:showAsAction="ifRoom"/>
+
+                <item
+                    android:id="@+id/Restore"
+                    android:icon="@drawable/ic_baseline_cloud_download_24"
+                    android:title="@string/restore_all_notes"
+                    app:showAsAction="ifRoom"/>
+
+
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="Theme and Color"
+        android:visible="false">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/onNotesSwitchTheme"
+                    app:actionLayout="@layout/switch_layout"
+                    android:icon="@drawable/ic_baseline_brightness_1_24"
+                    android:title="Theme Mode" />
+
+
+                <item
+                    android:id="@+id/onNotesDefaultTheme"
+                    android:icon="@drawable/ic_baseline_color_lens_24"
+                    android:title="Default Mode" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/readColor"
+    android:id="@+id/noteLockLayout"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="22sp"
+        android:textColor="@color/dominant_color"
+        android:textStyle="bold|italic"
+        android:text="Notes Password"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="18dp"
+        android:padding="2dp"
+        android:orientation="vertical">
+
+        <EditText android:id="@+id/email"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:textColorHint="@android:color/white"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:longClickable="false"
+            android:textIsSelectable="false"
+            android:drawableRight="@drawable/ic_baseline_email_24"
+            android:backgroundTint="@color/dominant_color"
+            android:layout_marginBottom="20dp"
+            />
+
+        <EditText android:id="@+id/password"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:longClickable="false"
+            android:textColorHint="@android:color/white"
+            android:hint="Password"
+            android:drawableEnd="@drawable/ic_baseline_visibility_off_24"
+            android:backgroundTint="@color/dominant_color"
+            android:layout_marginBottom="20dp"
+            android:inputType="numberPassword"/>
+
+        <EditText android:id="@+id/password1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@android:color/white"
+            android:hint="Retype Password"
+            android:drawableEnd="@drawable/ic_baseline_visibility_off_24"
+            android:backgroundTint="@color/dominant_color"
+            android:layout_marginBottom="20dp"
+            android:inputType="numberPassword"
+            android:longClickable="false"/>
+
+        <Button android:id="@+id/protect"
+            android:background="@drawable/custom_button_state"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:text="Protect"
+            android:layout_marginTop="20dp"/>
+
+        <Button android:id="@+id/cancel_p"
+            android:background="@drawable/custom_button_state"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:textColor="@android:color/white"
+            android:text="@string/cancel"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</RelativeLayout>

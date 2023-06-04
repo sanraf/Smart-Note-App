@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/pin"
+        android:title="@string/pin_unpin"/>
+    <item android:id="@+id/reminder"
+        android:title="@string/set_a_reminder"/>
+    <item android:id="@+id/cancelReminder"
+        android:title="@string/cancel_reminder"/>
+    <item android:id="@+id/lock"
+        android:title="@string/protect_notes"/>
+    <item android:id="@+id/flash"
+        android:title="@string/flash_notes"/>
+</menu>

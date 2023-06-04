@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/notes_color">
+        <menu>
+            <item
+                android:id="@+id/color_1"
+                android:icon="@drawable/red"
+
+                android:title="@string/red" />
+            <item
+                android:id="@+id/color_2"
+                android:icon="@drawable/green"
+
+                android:title="@string/green" />
+            <item
+                android:id="@+id/color_3"
+                android:icon="@drawable/pink"
+
+                android:title="@string/pink" />
+            <item
+                android:id="@+id/color_4"
+                android:icon="@drawable/purple"
+
+                android:title="@string/purple" />
+            <item
+                android:id="@+id/color_5"
+                android:icon="@drawable/yellow"
+
+                android:title="@string/yellow" />
+            <item
+                android:id="@+id/color_6"
+                android:icon="@drawable/orange"
+
+                android:title="@string/orange" />
+
+            <item
+                android:id="@+id/mybold"
+                android:title="Bold" />
+            <item
+                android:id="@+id/myItalic"
+                android:title="Italic" />
+            <item
+                android:id="@+id/mycursive"
+                android:title="Cursive" />
+            <item
+                android:id="@+id/mycasual"
+                android:title="Casual" />
+            <item
+                android:id="@+id/mymonospace"
+                android:title="Monospace" />
+
+            <item
+                android:id="@+id/reset"
+                android:icon="@drawable/reset"
+                android:title="@string/reset" />
+        </menu>
+
+    </item>
+
+
+</menu>

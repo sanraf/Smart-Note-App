@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Activities">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="Home" />
+
+        </menu>
+    </item>
+
+    <item android:title="Edit Activity">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/onEdit"
+                    android:icon="@drawable/ic_baseline_edit_24"
+                    android:title="Edit Note" />
+                <item
+                    android:id="@+id/onWordCount"
+                    android:icon="@drawable/ic_baseline_info_24"
+                    android:title="Notes Info" />
+
+                <item
+                    android:id="@+id/onSwitch"
+                    android:icon="@drawable/ic_baseline_texture_24"
+                    android:title="EtidText Lines"
+                    app:actionLayout="@layout/switch_layout" />
+
+            </group>
+        </menu>
+    </item>
+
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/onShare"
+                android:icon="@drawable/nav_share_24"
+                android:title="Share Note" />
+
+            <item
+                android:id="@+id/onCopy"
+                android:icon="@drawable/ic_baseline_copy_all_24"
+                android:title="Copy Note" />
+
+            <item
+                android:id="@+id/onDownload"
+                android:icon="@drawable/ic_baseline_download_alt_24"
+                android:title="Download Note" />
+
+        </menu>
+    </item>
+
+    <item android:title="Theme and Color"
+        android:visible="false">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/onAddNotesSwitchTheme"
+                    app:actionLayout="@layout/switch_layout"
+                    android:icon="@drawable/ic_baseline_brightness_1_24"
+                    android:title="Theme Mode" />
+
+
+                <item
+                    android:id="@+id/onAddNotesDefaultTheme"
+                    android:icon="@drawable/ic_baseline_color_lens_24"
+                    android:title="Default Mode" />
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

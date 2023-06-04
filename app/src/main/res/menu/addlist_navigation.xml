@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+        <item android:title="Activities">
+            <menu>
+                <item
+                    android:id="@+id/home"
+                    android:icon="@drawable/ic_baseline_home_24"
+                    android:title="Home" />
+
+                <item
+                    android:id="@+id/onTaskMode"
+                    android:icon="@drawable/task_mode_shopping_cart_24"
+                    android:title="@string/to_do_itemTask"  />
+
+                <item
+                    android:id="@+id/onNotes"
+                    android:icon="@drawable/note_icon"
+                    android:title="Notes" />
+
+                <item
+                    android:id="@+id/onReceipt"
+                    android:icon="@drawable/receipt"
+                    android:title="Receipt Mode" />
+
+            </menu>
+        </item>
+    <item android:title="Data Activity">
+        <menu>
+            <item
+                android:id="@+id/onDeleteAll"
+                android:icon="@drawable/ic_baseline_delete_24"
+                android:title="@string/delete_all_list" />
+        </menu>
+    </item>
+
+    <item android:title="Theme and Color"
+        android:visible="false">
+        <menu>
+            <group android:checkableBehavior="single">
+
+
+
+                <item
+                    android:id="@+id/onSwitchTheme"
+                    app:actionLayout="@layout/switch_layout"
+                    android:icon="@drawable/ic_baseline_brightness_1_24"
+                    android:title="Theme Mode" />
+
+
+                <item
+                    android:id="@+id/onDefaultTheme"
+                    android:icon="@drawable/ic_baseline_color_lens_24"
+                    android:title="Default Mode" />
+
+            </group>
+
+        </menu>
+    </item>
+
+
+
+
+
+</menu>

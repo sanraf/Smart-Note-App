@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginEnd="5dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginBottom="0dp"
+    android:layout_marginStart="5dp"
+    android:id="@+id/shopHolder"
+    android:clickable="true"
+    android:background="@drawable/shop_strokes"
+    android:backgroundTintMode="screen"
+    android:backgroundTint="@android:color/transparent"
+    android:layout_height="wrap_content"
+    android:focusable="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/colorHolder"
+        android:background="@drawable/shopcardbck_1">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/item"
+            android:padding="10dp"
+            android:layout_toStartOf="@id/checkbox"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold|italic"
+            android:id="@+id/item"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@+id/priority"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ic_baseline_check_box_outline_blank_24"
+            android:id="@+id/checkbox"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="4dp"
+            android:layout_toStartOf="@+id/priority"
+            android:layout_marginEnd="25dp"
+            android:id="@+id/check"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_baseline_low_priority_24"
+            android:layout_alignParentEnd="true"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="10dp"
+            android:paddingStart="10dp"
+            android:id="@+id/priority"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity"
+            android:layout_below="@+id/item"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="normal|bold"
+            android:id="@+id/quantity"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/quantity"
+            android:gravity="start"
+            android:textStyle="normal|bold"
+            android:layout_below="@+id/item"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/spacer"/>
+
+        <TextView
+            android:layout_width="95dp"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:layout_marginEnd="10dp"
+            android:gravity="start"
+            android:textStyle="normal|bold"
+
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/item"
+            android:textColor="@color/matrix"
+            android:textSize="16sp"
+            android:id="@+id/price"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:showIn="navigation_view">
+
+        <item android:title="Activities">
+            <menu>
+                <item
+                    android:id="@+id/homeTask"
+                    android:icon="@drawable/ic_baseline_home_24"
+                    android:title="Home" />
+                <item
+                    android:id="@+id/onPriceMode"
+                    android:icon="@drawable/nav_shopping_cart_24"
+                    android:title="@string/to_do_items" />
+                <item
+                    android:id="@+id/onTask"
+                    android:icon="@drawable/note_icon"
+                    android:title="Notes" />
+
+            </menu>
+        </item>
+
+    <item android:title="Data Activity">
+        <menu>
+            <item
+                android:id="@+id/onDeleteAll"
+                android:icon="@drawable/ic_baseline_delete_24"
+                android:title="@string/delete_all_task" />
+        </menu>
+    </item>
+
+    <item android:title="Theme and Color"
+        android:visible="false">
+        <menu>
+            <group android:checkableBehavior="single"
+                >
+
+
+
+                <item
+                    android:id="@+id/onTaskSwitchTheme"
+                    app:actionLayout="@layout/switch_layout"
+                    android:icon="@drawable/ic_baseline_brightness_1_24"
+                    android:title="Theme Mode"
+                    />
+
+
+                <item
+                    android:id="@+id/onTaskDefaultTheme"
+                    android:icon="@drawable/ic_baseline_color_lens_24"
+                    android:title="Default Mode" />
+
+            </group>
+
+        </menu>
+    </item>
+
+
+
+
+
+</menu>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alarmLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    >
+
+
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/buttonHolder"
+            android:layout_gravity="center"
+            android:amPmTextColor="@color/red"
+            android:headerBackground="@color/dark_mode"
+            android:numbersBackgroundColor="@color/dark_mode"
+            android:numbersSelectorColor="@color/nite"
+            android:numbersTextColor="@color/matrix"
+            android:padding="5dp"
+            android:text="@string/select_time"
+            android:timePickerMode="clock" />
+
+        <LinearLayout
+            android:id="@+id/buttonHolder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/adViewalarm"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/back"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_weight="1"
+                android:backgroundTint="@color/dark_mode"
+                android:drawableStart="@drawable/ic_baseline_arrow_back_ios_24"
+                android:padding="12dp"
+                android:text="Back"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/setAlarm"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_weight="1"
+                android:backgroundTint="@color/dark_mode"
+                android:drawableEnd="@drawable/ic_baseline_alarm_add_24"
+                android:padding="12dp"
+                android:text="@string/set_alarm"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adViewalarm"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/tran"
+            android:layout_alignParentBottom="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+
+
+    </RelativeLayout>
+

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:background="@color/night"
+    android:id="@+id/infoHolder"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/TitleView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="Information"
+            android:fontFamily="monospace"
+            android:textStyle="bold"
+            android:textFontWeight="1000"
+            android:layout_margin="5dp"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/Bluer"
+            android:textSize="18sp"
+            tools:targetApi="p" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TitleView"
+            android:text="Created day"
+            android:textSize="14sp"
+            android:id="@+id/cd"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/TitleView"
+            android:id="@+id/createdday"
+            android:padding="3dp"
+            android:layout_toEndOf="@+id/cd"
+            android:textSize="14sp"
+            android:layout_marginStart="10dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ct"
+            android:layout_below="@id/createdday"
+            android:layout_marginStart="20dp"
+            android:padding="3dp"
+            android:text="@string/created_time"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/createdtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_below="@id/createdday"
+            android:layout_toEndOf="@+id/ct"
+            android:layout_marginStart="10dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:targetApi="p" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/createdtime"
+            android:text="@string/words"
+            android:id="@+id/wd"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:padding="3dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/words"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_below="@id/createdtime"
+            android:layout_toEndOf="@+id/wd"
+            android:layout_marginStart="10dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:targetApi="p" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cht"
+            android:layout_below="@id/words"
+            android:text="@string/characters"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:padding="3dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/character"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_below="@id/words"
+            android:layout_toEndOf="@+id/cht"
+            android:layout_marginStart="10dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:targetApi="p" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chs"
+            android:layout_below="@id/character"
+            android:text="@string/character_and_space"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:padding="3dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/char_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:gravity="end"
+            android:layout_below="@id/character"
+            android:layout_toEndOf="@+id/chs"
+            android:layout_marginStart="10dp"
+            android:textStyle="italic"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            tools:targetApi="p" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="@string/ok"
+            android:textAllCaps="true"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/char_space"
+            android:textColor="@color/tran"
+            android:padding="10dp"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:id="@+id/close"
+            android:focusable="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>

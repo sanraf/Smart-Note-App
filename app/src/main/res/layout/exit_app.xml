@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/exit_bck_1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:layout_toEndOf="@+id/farewell"
+                android:background="@drawable/smiley"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="See you soon:aloha"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:id="@+id/farewell"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Exit The App?"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:textFontWeight="1000"
+            android:layout_marginTop="0dp"
+            android:textColor="@color/navy"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/TextView"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Stay"
+                android:background="@android:color/transparent"
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:id="@+id/stay"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content"
+                android:text="Exit"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:layout_margin="5dp"
+                android:textSize="16sp"
+                android:id="@+id/exit"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
